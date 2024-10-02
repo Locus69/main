@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # STEP 1: Setup WiFi
-ESSID="Locus_2.4GHz"
-PASSPHRASE="HappuSingh69"
+ESSID=""
+PASSPHRASE=""
 
 # Generate WPA passphrase
 wpa_passphrase "$ESSID" "$PASSPHRASE" | sudo tee /etc/wpa_supplicant.conf
